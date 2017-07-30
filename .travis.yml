@@ -22,10 +22,9 @@ before_script:
   - npm install -g @angular/cli
   - npm install -g karma
   - npm install
+  - ng build --prod --aot
 
-script: 
-  - karma start karma.conf.js --single-run
-  - ng build --prod
+script: karma start karma.conf.js --single-run
 
 after_success:
   - firebase deploy --token $FIREBASE_TOKEN 
