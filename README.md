@@ -1,5 +1,7 @@
 # FgcApp [![Build Status](https://travis-ci.org/nilpaco/fgc-app.svg?branch=master)](https://travis-ci.org/nilpaco/fgc-app)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nilpaco/fgc-app.svg)](https://greenkeeper.io/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.6.
 
 ## Development server
